@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login_and_registration.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <form>
+            <h2>Email Address</h2>
+            <input type="email" required>
+            <br>
+            <h2>Password</h2>
+            <input type="password" required>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+        <h4>OR</h4>
+        <h3>Register</h3>
+        <div>
+            <button>Student</button>
+            <button>Assistant</button>
+            <button>Faculty</button>
+        </div>
+    </div>
+
+    <div class="student">
+        <h1>Student Registration</h1>
+        <form>
+            <h2>Full Name</h2>
+            <input type="text" required>
+            
+            <h2>Email</h2>
+            <input type="email" required>
+            
+            <h2>Password</h2>
+            <input type="password" required>
+            
+            <h2>Semester</h2>
+            <select>
+                <option value="1">1 - 1</option>
+                <option value="2">1 - 2</option>
+                <option value="3">2 - 1</option>
+                <option value="4">2 - 2</option>
+                <option value="5">3 - 1</option>
+                <option value="6">3 - 2</option>
+                <option value="7">4 - 1</option>
+            </select>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div class="ta">
+        <h1>Assistant Registration</h1>
+        <form>
+            <h2>Full Name</h2>
+            <input type="text" required>
+            
+            <h2>Email</h2>
+            <input type="email" required>
+            
+            <h2>Password</h2>
+            <input type="password" required>
+            
+            <h2>You are</h2>
+            <select name="" id="">
+                <option value="UG">Undergraduate</option>
+                <option value="PG">Postgraduate</option>
+                <option value="PhD">PhD</option>
+            </select>
+
+            <h2>Field</h2>
+            <select>
+                <option value="Math">Mathematics</option>
+                <option value="CS">Computer Science</option> 
+                <option value="EEE">Electronics</option>
+                <option value="Mech">Mechanics</option>
+                <option value="Chem">Chemistry</option> 
+                <option value="Bio">Biology</option> 
+                <option value="Eco">Economics</option>            
+            </select>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div class="faculty">
+        <h1>Faculty Registration</h1>
+        <form>
+            <h2>Full Name</h2>
+            <input type="text" required>
+            
+            <h2>Email</h2>
+            <input type="email" required>
+            
+            <h2>Password</h2>
+            <input type="password" required>
+
+            <h2>Field</h2>
+            <select>
+                <option value="Math">Mathematics</option>
+                <option value="CS">Computer Science</option> 
+                <option value="EEE">Electronics</option>
+                <option value="Mech">Mechanics</option>
+                <option value="Chem">Chemistry</option> 
+                <option value="Bio">Biology</option> 
+                <option value="Eco">Economics</option>            
+            </select>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="./login.js"></script>
+</body>
+</html>
